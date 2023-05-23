@@ -9,7 +9,7 @@ var capabilities = {
 	'bstack:options' : {
 		"os" : "OS X",
 		"osVersion" : "Ventura",
-		"browserVersion" : "16.0",
+        "browserVersion" : "112.0",
 		"projectName" : "adS_Studio",
 		"debug" : "true",
 		"networkLogs" : "true",
@@ -18,7 +18,7 @@ var capabilities = {
 		"accessKey" : process.env.BROWSERSTACK_ACCESS_KEY,
 		"localIdentifier" : process.env.BROWSERSTACK_LOCAL_IDENTIFIER
 	},
-	"browserName" : "Safari",
+	"browserName" : "Chrome",
 }
 
   async function test (capabilities) {
